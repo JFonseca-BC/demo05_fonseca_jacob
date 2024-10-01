@@ -4,6 +4,8 @@
 <head>
     <title>My BCIT Project</title>
     <meta name="comp1800 template" content="My 1800 App">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -21,18 +23,84 @@
 
 <body>
 
-    <!------------------------------>
-    <!-- Your HTML Layout go here -->
-    <!------------------------------>
-    <!-- Stuff for body goes here -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary-subtle">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.png" height="70">
+            Depression Nap Studio
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Upcoming Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Games</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Store</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Welcome To The Studio</h1>
+            <p class="lead text-muted">Games made as stories.</p>
+            <p>
+              <a href="#" class="btn btn-primary my-2">Log In</a>
+              <a href="#" class="btn btn-secondary my-2">Donate to CoFi</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="./images/psychlone.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Psychlone / 2028</h5>
+              <p class="card-text">In one of Vancouver's worst ever crime sprees, Subject-1924H5B gets swept up in the mayor's reckless attempt to stop it. Will she rise to the occassion and become the hero the city needs or stoop to the mayor's level,  bringing everyone in the world down with her...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="./images/tba.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Untitled Game / TBD</h5>
+              <p class="card-text">A multiplayer team based shooter coming soon.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="./images/tba2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Project Latent / TBD</h5>
+              <p class="card-text">Do you have what it takes to follow the scorched path?</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
     <!---------------------------------------------->
     <!-- Your own JavaScript functions go here    -->
     <!---------------------------------------------->
 
-    <!-- Link to scripts of your own -->
-    <!-- <script src="./scripts/script.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </body>
 
